@@ -1,6 +1,5 @@
 from flask import Flask
-from microblog import routes
 
 app = Flask(__name__)
 
-
+from microblog import routes
